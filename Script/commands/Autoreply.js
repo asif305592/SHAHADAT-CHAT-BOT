@@ -8,8 +8,8 @@ module.exports.config = {
   credits: "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦",
   description: "Auto-response bot with specified triggers",
   commandCategory: "No Prefix",
-  usages: "[any trigger]",
-  cooldowns: 3,
+  usages: "[Bot, Mim]",
+  cooldowns: 2,
 };
 
 module.exports.handleEvent = async function ({ api, event, Users }) {
